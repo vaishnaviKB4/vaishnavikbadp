@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <script>
+             function add(){
+            var a,b,c;
+            a=document.getElementById("fn").value;
+            b=document.getElementById("sn").value;
+            c=parseInt(a)+parseInt(b);
+        
+            window.alert("the sum of: "+ a+" and "+b+" is "+c)
+        }
+        add();
+        
+            function sub(){
+            var a,b,c;
+            a=document.getElementById("fn").value;
+            b=document.getElementById("sn").value;
+            c=parseInt(a)-parseInt(b);;
+        
+            window.alert("the sub of: "+ a+" and "+b+" is "+c)
+        }
+        sub();
+        function mul(){
+            var a,b,c;
+            a=document.getElementById("fn").value;
+            b=document.getElementById("sn").value;
+            c=parseInt(a)*parseInt(b);;
+        
+            window.alert("the mul of: "+ a+" and "+b+" is "+c)
+        }
+        mul();
+        function div(){
+            var a,b,c;
+            a=document.getElementById("fn").value;
+            b=document.getElementById("sn").value;
+            c=parseInt(a)/parseInt(b);
+        
+            window.alert("the div of: "+ a+" and "+b+" is "+c)
+        }
+        div();
+            </Script>
+            </head>
+            <body>
+                <form>
+                    <label>enter first number</label>
+                    <input type ="text" id="fn"><br>
+                    <label>enter second number</label>
+                    <input type ="text" id="sn"><br>
+                    <input type ="text" value="add" onclick="add()">
+                    <input type ="text" value="sub" onclick="sub()">
+                    <input type ="text" value="mul" onclick="mul()">
+                    <input type ="text" value="div" onclick="div()">
+                    </form>
+                    </body>
+                    </html>

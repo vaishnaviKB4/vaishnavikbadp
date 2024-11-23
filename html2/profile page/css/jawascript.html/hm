@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Webpage with Frames</title>
+</head>
+<frameset rows="20%,*">
+    <!-- Header Section -->
+    <frame src="header.html" name="header-frame" scrolling="no">
+    <frameset cols="25%,*">
+        <!-- Navigation Menu (Dashboard) -->
+        <frame src="navigation.html" name="nav-frame" scrolling="yes">
+        <!-- Main Content Area -->
+        <frame src="content.html" name="content-frame">
+    </frameset>
+</frameset>
+</html>
